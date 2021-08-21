@@ -1,0 +1,22 @@
+#include <stdio.h>
+#include<math.h>
+
+ int main(void){
+ 
+ 
+float calificaciones[20]={5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5,5};
+float promedio=0;
+ 
+  printf("Programa que calcula el promedio de 20 calificaciones    \n");
+  
+  for(int i=0; i<20; i++){
+  	
+  	promedio=promedio+calificaciones[i];
+  	
+  }
+  printf(" El promedio de las calificaciones es: %.2f\n", promedio/20);
+  
+  return 0;
+  
+  }
+  
